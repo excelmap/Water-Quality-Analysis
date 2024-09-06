@@ -9,7 +9,7 @@ b.	Features: 9 numeric variables (e.g., pH, hardness, solids) and 1 binary targe
 
 c.	Missing values: The dataset had missing values in columns like ph, Sulfate, and Trihalomethanes, which were handled by imputing the mean of the respective columns.
 
-3.	Key Findings:
+2.	Key Findings:
    
 a.	pH: Potable water generally has a more balanced pH range compared to non-potable water, which exhibits a broader and more variable pH.
 
@@ -29,6 +29,6 @@ h. 	Trihalomethanes: Potable water generally has lower concentrations, while non
 
 i.	Turbidity: Both groups exhibit similar turbidity levels, though non-potable water has more outliers.
 
-5.	Correlation Analysis:
+3.	Correlation Analysis:
    
    The correlation matrix showed weak linear relationships between most features, except for a moderate correlation between Chloramines and Turbidity (0.32), indicating that these two variables may be somewhat interrelated.
