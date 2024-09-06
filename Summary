@@ -1,0 +1,6 @@
+Summary of Key Findings: 
+1.	Data Structure: The dataset contains 3,276 samples with 9 numeric variables (e.g., pH, hardness, solids) and 1 binary target variable (Potability). Missing values in columns like pH, Sulfate, and Trihalomethanes were handled by imputing the mean of the respective columns1.
+2.	pH and Hardness: Potable water generally has a more balanced pH range compared to non-potable water, which exhibits a broader and more variable pH. Both potable and non-potable water show similar hardness distribution, but non-potable water has a slightly wider range23.
+3.	Solids and Chloramines: Non-potable water has a slightly higher concentration of dissolved solids, though both categories cover a wide range. Potable water tends to have a more consistent chloramine concentration, while non-potable water has higher variance45.
+4.	Sulfate and Conductivity: Potable water typically contains lower sulfate concentrations compared to non-potable water. Conductivity levels are fairly similar between potable and non-potable water, though non-potable water has more extreme values67.
+5.	Organic Carbon and Trihalomethanes: Organic carbon levels in non-potable water tend to show greater variability. Potable water generally has lower concentrations of trihalomethanes, while non-potable water has a broader range with higher concentrations89.
